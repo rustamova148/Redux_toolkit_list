@@ -1,0 +1,42 @@
+.app{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #264653;
+}
+#input{
+    width: 500px;
+    height: 30px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+.addbtn{
+    height: 35px;
+    width: 60px;
+    border: none;
+    background-color: #f4a261;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+}
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+
+.li-btns button:first-child{
+    margin-right: 30px;
+}
+.li-btns button{
+    height: 40px;
+    width: 93.81px;
+}
