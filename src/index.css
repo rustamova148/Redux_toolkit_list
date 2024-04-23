@@ -39,4 +39,6 @@ li{
 .li-btns button{
     height: 40px;
     width: 93.81px;
+    cursor: pointer;
+    border: none;
 }
