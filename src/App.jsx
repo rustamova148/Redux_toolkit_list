@@ -20,8 +20,10 @@ const handleSubmit = () => {
   return (
     <div className="app">
       <div className="box">
+      <div className="inpbutt">
       <input type="text" id="input" />
       <button onClick={handleSubmit} className="addbtn">Add</button>
+      </div>
 
       {notes.map((note,i)=>
       <ul key={i}>
@@ -38,7 +40,6 @@ const handleSubmit = () => {
       </ul>
       )}
       </div>
-
     </div>
   )
 }
