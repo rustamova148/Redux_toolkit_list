@@ -61,10 +61,14 @@ li{
     .inpbutt{
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
         margin-bottom: 20px;
     }
     #input{
         width: 360px;
+    }
+    .addbtn{
+        margin-right: 20px;
     }
     ul{
         flex-direction: column;
